@@ -21,7 +21,7 @@ const Homes = () => {
 
   return (
     <div className=" w-full  bg-red-300">
-      <h1>List of Pokemon  </h1>
+      <h1>List of Pokemonnn  </h1>
 
       <input type="text" placeholder="Search Pokemon" value={searchQuery} onChange={e => setSearchQuery(e.target.value)} />
 
