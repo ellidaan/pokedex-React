@@ -36,9 +36,7 @@ const Homes = () => {
             <div class="px-6 py-4 flex flex-col gap-4 justify-center items-center">
               <div class="font-bold text-xl mb-2">  <h2>{p.nom_pok}</h2></div>
               <img class="w-30 h-40 " src={p.image_pok} alt="pokemon" />
-              {p.stats.map(stat => (
-                <li key={stat}>{stat.type1}/{stat.type2}</li>
-              ))}
+             
 
             </div>
 
