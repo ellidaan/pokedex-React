@@ -15,7 +15,6 @@ app.get('/', async (req, res) => {
     const db = client.db(dbName);
     const collection = db.collection(collectionName);
     const documents = await collection.find({}).toArray();
-  
     res.json(documents);
 
   } catch (err) {
